@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+
+        int a = 100;
+        int b = 5;
+
+        System.out.println("--Before swap--");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        // Для решения этой задачи нам нужно создать временную переменную, 
+        // которая будет использована в качестве буфера.
+        int temporary = a;
+        a = b;
+        b = temporary;
+
+        System.out.println("--After swap--");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
