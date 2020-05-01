@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+
+        int n = 7;
+        int result = doubleNumber(n);
+        System.out.println(result);
+    }
+
+    // напиши метод тут ...
+    public static int doubleNumber(int n) {
+        return n * 2;
+    }
+}
