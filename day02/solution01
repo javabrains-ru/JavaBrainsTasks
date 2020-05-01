@@ -1,1 +1,8 @@
 
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+        int x;
+        int y;
+    }
+}
