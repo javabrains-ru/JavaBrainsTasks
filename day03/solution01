@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+        String name = "Alice";
+        String greeting = hello(name);
+        System.out.println(greeting);
+    }
+
+    public static String hello(String name) {
+        // Допиши метод тут ...
+        return "Hello" + " " + name + "!";
+    }
+}
