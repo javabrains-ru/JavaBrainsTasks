@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+        int x = 3;
+        int y = 7;
+        int z = 10;
+
+        int result = sumThreeNumbers(x, y, z);
+
+        System.out.println(result);
+    }
+
+    public static int sumThreeNumbers(int x, int y, int z) {
+        // напиши код тут
+        return x + y + z;
+    }
+}
