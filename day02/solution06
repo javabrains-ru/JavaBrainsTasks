@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        // Скопируй код себе в IntelliJIDEA и продолжи решение
+
+        int radius = 7;
+        double area = areaCalculation(radius);
+        System.out.println(area);
+    }
+
+    public static double areaCalculation(int r) {
+        // Напиши код, для вычисления площади круга
+        final double PI = 3.14;
+        return PI * r * r;
+    }
+}
