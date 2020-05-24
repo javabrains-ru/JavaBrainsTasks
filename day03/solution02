@@ -6,6 +6,6 @@ public class Main {
 
     public static String concat(String s1, String s2) {
         // Допиши метод тут ...
-        return s2 + s1 + s2;
+        return s2 + s1;
     }
 }
