@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // Скопируй код себе в IntelliJIDEA и продолжи решение
         String result = concat("Orange", "Bubbles");
         System.out.println(result);
     }
