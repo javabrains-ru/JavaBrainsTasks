@@ -7,6 +7,6 @@ public class Main {
 
     public static String hello(String name) {
         // Допиши метод тут ...
-        return "Hello" + " " + name + "!";
+        return "Hello" + " " + name;
     }
 }
