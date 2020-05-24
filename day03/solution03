@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        String result1 = nameLength("Мария");
+        System.out.println(result1); // Длина имени Мария равняется 5 символам
+
+        String result2 = nameLength("Александр");
+        System.out.println(result2); // Длина имени Александр равняется 9 символам
+
+        String result3 = nameLength("Степан");
+        System.out.println(result3); // Длина имени Степан равняется 6 символам
+    }
+
+    public static String nameLength(String name) {
+        // Допиши метод тут ...
+        return "Длина имени " + name + " равняется " + name.length() + " символам";
+    }
+}
